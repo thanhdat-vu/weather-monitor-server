@@ -123,7 +123,7 @@ app.get("/api/data", async (req, res) => {
 });
 
 // Start the server
-const port = 8000;
+const port = 5000;
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
