@@ -70,6 +70,7 @@ mqttClient.on("message", async (topic, message) => {
     hour: "numeric",
     minute: "numeric",
     second: "numeric",
+    timeZone: "Asia/Ho_Chi_Minh",
   });
   const y = parseInt(message.toString());
 
